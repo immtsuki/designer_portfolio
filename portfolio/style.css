@@ -47,12 +47,12 @@ nav a:hover {
 }
 
 .hero-text {
-    max-width: 500px;
+    max-width: 700px;
     animation: slideIn 1s ease;
 }
 
 .hero-text h2 {
-    font-size: 42px;
+    font-size: 70px;
 }
 
 .hero-text p {
@@ -141,51 +141,172 @@ nav a:hover {
     transform: scale(1.05);
 }
 
-/*Graphic Work */
-.graphic_work {
-    border-radius: 20px;
+/* UI / UX Work Section */
+.ui_ux_work { 
     position: relative;
     min-height: 100vh;
-    background: url("images/graphic\ work.png") center / cover no-repeat;
-    padding: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    border-radius: 20px;
+    background: url("images/ui_ux_work.png") center / cover no-repeat;
+    margin-bottom: 50px;
+    overflow: hidden;
 }
 
-/* Dark overlay for contrast */
+/* Dark overlay for readability */
+.ui_ux_work::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1;
+}
+
+/* Overlay content */
+.uiux-overlay {
+    position: relative;
+    z-index: 2;
+    padding: 120px 8%;
+}
+
+/* Graphic Work */
+.graphic_work { 
+    position: relative;
+    min-height: 100vh;
+    border-radius: 20px;
+    background: url("images/graphic_work.png") center / cover no-repeat;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+/* Dark overlay for readability */
 .graphic_work::before {
     content: "";
     position: absolute;
     inset: 0;
+    background: rgba(0, 0, 0, 0.45);
     z-index: 1;
 }
 
-/* Keep content above overlay */
-.graphic_work > * {
+/* Overlay content */
+.graphic-overlay {
     position: relative;
     z-index: 2;
+    padding: 120px 8%;
 }
 
+/* Graphic Work */
+.graphic_work { 
+    position: relative;
+    min-height: 100vh;
+    border-radius: 20px;
+    background: url("images/graphic_work.png") center / cover no-repeat;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+/* Dark overlay for readability */
+.graphic_work::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1;
+}
+
+/* Overlay content */
+.logo-overlay {
+    position: relative;
+    z-index: 2;
+    padding: 120px 8%;
+}
+
+/* Logo Work */
+.logo_work { 
+    position: relative;
+    min-height: 100vh;
+    border-radius: 20px;
+    background: url("images/logo_work.png") center / cover no-repeat;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+/* Dark overlay for readability */
+.logo_work::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1;
+}
+
+/* Overlay content */
+.graphic-overlay {
+    position: relative;
+    z-index: 2;
+    padding: 120px 8%;
+}
+
+/* Brand Work */
+.brand_work { 
+    position: relative;
+    min-height: 100vh;
+    border-radius: 20px;
+    background: url("images/brand_work.png") center / cover no-repeat;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+/* Dark overlay for readability */
+.brand_work::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1;
+}
+
+/* Overlay content */
+.brand-overlay {
+    position: relative;
+    z-index: 2;
+    padding: 120px 8%;
+}
+
+/* Presentation Work */
+.presentation_work { 
+    position: relative;
+    min-height: 100vh;
+    border-radius: 20px;
+    background: url("images/presenation_work.png") center / cover no-repeat;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+/* Dark overlay for readability */
+.presentation_work::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1;
+}
+
+/* Overlay content */
+.presentation-overlay {
+    position: relative;
+    z-index: 2;
+    padding: 120px 8%;
+}
 
 /* CONTACT */
 .contact {
-    border-radius: 30px;
     background-color: #18181f;
     padding: 80px;
     text-align: center;
+    border-radius: 20px;
 }
 
 .contact p {
     color: #aaa;
-}
-
-/* FOOTER */
-footer {
-    background-color: #18181f;
-    text-align: center;
-    padding: 20px;
-    color: #777;
 }
 
 /* ANIMATIONS */
